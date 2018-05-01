@@ -1,20 +1,7 @@
 REPOSITORY                 TAG                 IMAGE ID            CREATED              SIZE
 yourname/ubuntu-tmp-file   latest              a72165bf019d        About a minute ago   113MB
 ubuntu                     16.04               c9d990395902        12 days ago          113MB
-brandonheat/test_flask     latest              2d001c38336a        2 months ago         429MB
-brandonheat/test_flask     v0.3                2d001c38336a        2 months ago         429MB
-brandonheat/test_flask     <none>              6cbaf3d72d6f        2 months ago         429MB
-brandonheat/test_flask     <none>              16cce6ec891d        2 months ago         429MB
 <none>                     <none>              55a9a0db3eb7        2 months ago         423MB
-brandonheat/test_flask     <none>              2bd52c4e59db        2 months ago         429MB
-brandonheat/test_flask     v0.2                9e485993b0df        2 months ago         429MB
-brandonheat/test_flask     <none>              0f0544fc8aca        2 months ago         426MB
-brandonheat/test_flask     <none>              54cf37b4c2a6        2 months ago         426MB
-brandonheat/test_flask     v0.1                49b9c0638af8        2 months ago         993MB
-brandonheat/test_flask     <none>              efc8afdb59c3        2 months ago         993MB
-brandonheat/test_flask     <none>              1c9bf356ed1b        2 months ago         374MB
-brandonheat/test_flask     <none>              d2c48a0bce7a        2 months ago         353MB
-brandonheat/test_flask     <none>              3faa2c2f67d3        2 months ago         353MB
 <none>                     <none>              f874fea5c628        2 months ago         354MB
 ubuntu                     latest              0458a4468cbc        2 months ago         112MB
 centos                     7                   ff426288ea90        3 months ago         207MB
