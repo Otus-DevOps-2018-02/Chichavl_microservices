@@ -1,0 +1,9 @@
+packer/variables.json
+# from gist for TF
+*.tfstate
+*.tfstate.*.backup
+*.tfstate.backup
+*.tfvars
+.terraform/
+*.pyc
+*.retry

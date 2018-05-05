@@ -1,0 +1,36 @@
+{
+  "variables": {
+    "project_id": null,
+    "source_image_family": null,
+    "machine_type": "n1-standard-1",
+    "image_description": "Base image for docker host",
+    "tags": "docker-host",
+    "disk_type": "pd-standard",
+    "disk_size": "10",
+    "network": "default"
+  },
+  "builders": [
+    {
+      "type": "googlecompute",
+      "project_id": "{{user `project_id`}}",
+      "image_name": "docker-host-{{timestamp}}",
+      "image_family": "docker-host",
+      "source_image_family": "{{user `source_image_family`}}",
+      "zone": "europe-west1-b",
+      "ssh_username": "appuser",
+      "machine_type": "{{user `machine_type`}}",
+      "image_description": "{{user `image_description`}}",
+      "tags": "{{user `tags`}}",
+      "disk_type": "{{user `disk_type`}}",
+      "disk_size": "{{user `disk_size`}}",
+      "network": "{{user `network`}}"
+    }
+  ],
+  "provisioners": [
+    {
+      "type": "shell",
+      "script": "scripts/install_docker.sh",
+      "execute_command": "sudo {{.Path}}"
+    }
+  ]
+}
