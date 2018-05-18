@@ -10,8 +10,11 @@ docker-host
 
 eval $(docker-machine env docker-host)
 
+IP=$(docker-machine ip docker-host)
+
 docker run --detach \
     --hostname gitlab.example.com \
+    --env GITLAB_OMNIBUS_CONFIG="external_url 'http://$IP'" \
     --publish 443:443 --publish 80:80 --publish 2222:22 \
     --name gitlab \
     --restart always \
@@ -19,3 +22,5 @@ docker run --detach \
     --volume /srv/gitlab/logs:/var/log/gitlab \
     --volume /srv/gitlab/data:/var/opt/gitlab \
     gitlab/gitlab-ce:latest
+
+echo "Gitlab external ip: $IP"
