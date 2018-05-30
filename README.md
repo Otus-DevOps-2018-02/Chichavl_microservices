@@ -53,6 +53,7 @@ echo "Gitlab external ip: $IP"
 ```
 export GL_TOKEN=so***************Ex
 ```
+Запускаем скрипт `create_runner.sh`. Он запустит и настроит агента на докер хосте, созданном скриптом `create.sh`.
 
 ```
 eval $(docker-machine env docker-host)
