@@ -1,0 +1,13 @@
+version: '3.3'
+services:
+  ui:
+    command: "puma --dedug -w 2"
+    volumes:
+      - ./ui:/app
+  post:
+    volumes:
+      - ./post-py:/app
+  comment:
+    command: "puma --dedug -w 2"
+    volumes:
+      - ./comment:/app
