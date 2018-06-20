@@ -1,6 +1,13 @@
 # Chichavl_microservices
 Chichavl microservices repository
 
+# Основные комманды Docker
+`docker version` - версия docker
+`docker run hello-world` - запустить контейнер hello-world
+`docker ps` - список запущенных контейнеров
+`docker ps -a` - список всех контейнеров
+`docker images` - список сохраненных образов
+
 # Переопределение переменных окружения контейнера
 
 ```
@@ -57,4 +64,3 @@ chichavl/ui         2.1                 8585098af173        5 minutes ago       
 chichavl/ui         2.0                 90c672d63ff3        15 hours ago        249MB
 chichavl/ui         1.0                 8228fe2bf115        19 hours ago        776MB
 ```
-

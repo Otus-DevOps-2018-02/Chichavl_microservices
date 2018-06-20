@@ -1,0 +1,11 @@
+REPOSITORY                 TAG                 IMAGE ID            CREATED              SIZE
+yourname/ubuntu-tmp-file   latest              a72165bf019d        About a minute ago   113MB
+ubuntu                     16.04               c9d990395902        12 days ago          113MB
+<none>                     <none>              55a9a0db3eb7        2 months ago         423MB
+<none>                     <none>              f874fea5c628        2 months ago         354MB
+ubuntu                     latest              0458a4468cbc        2 months ago         112MB
+centos                     7                   ff426288ea90        3 months ago         207MB
+python                     2.7                 9e92c8430ba0        4 months ago         681MB
+hello-world                latest              f2a91732366c        5 months ago         1.85kB
+
+Image - это описание как как создать контейнер, если провести аналогию с ООП это конструктор класса, контейнер это описание запущенного экземпляра image (instance в ООП). У контейнера появляется state.
