@@ -64,3 +64,6 @@ chichavl/ui         2.1                 8585098af173        5 minutes ago       
 chichavl/ui         2.0                 90c672d63ff3        15 hours ago        249MB
 chichavl/ui         1.0                 8228fe2bf115        19 hours ago        776MB
 ```
+
+# Переопределение имени проекта
+Имя проекта можно переопределить переменной окружения `COMPOSE_PROJECT_NAME`

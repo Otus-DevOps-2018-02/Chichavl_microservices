@@ -7,3 +7,4 @@ packer/variables.json
 .terraform/
 *.pyc
 *.retry
+.env
